@@ -12,7 +12,7 @@ export const UserProfile: FC<Props> = (props) => {
       <dt>名前</dt>
       <dd>{user.name}</dd>
       <dt>趣味</dt>
-      <dd>{user.hobbies.join(" / ")}</dd>
+      <dd>{user.hobbies?.join(" / ")}</dd>
     </dl>
   );
 };
